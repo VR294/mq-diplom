@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MQ diplom</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mq-tablet.css" media="(min-width: 641px) and (max-width: 1200px)">
-    <link rel="stylesheet" href="css/mq-mobile.css" media="(max-width: 640px)">
 </head>
 
 <body>
     <input type="checkbox" id="popup1" class="popup-checkbox">
     <article class="visually-hidden pop-up">
         <section class="popup-content">
-            <label for="popup1" class="popup-closure"></label>
+            <img src="svg/form-x.svg" alt="Закрыть" class="close">
             <h2 class="popup-title">Ваш фидбек</h2>
             <form class="popup-form">
                 <section>
@@ -31,11 +29,11 @@
                     <span class="text">Вы подписаны на e-mail рассылку?</span>
                     <label class="subscription">
                         <input type="radio" class="radio" name="e-mail" value="yes">
-                        <span>Да</span>
+                        <span class="custom-radio">Да</span>
                     </label>
                     <label class="subscription radio-no">
                         <input type="radio" class="radio" name="e-mail" value="no">
-                        <span>Нет</span>
+                        <span class="custom-radio">Нет</span>
                     </label>
                 </section>
 
