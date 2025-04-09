@@ -1165,9 +1165,9 @@ body {
     
     .flex {
         flex-direction: column;
+        margin-left: 16px;
+        margin-right: 16px;
     }
-    
-    
     
     .post {
         display: block;
@@ -1179,9 +1179,93 @@ body {
         margin-left: 0px;
     }
     
-    .articles {
-        margin-left: 16px;
-        margin-right: 16px;
+    .post-title {
+        margin-bottom: 23px;
+    
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .post-text>p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 19px;
+    }
+    
+    .post-text>p:not(:first-child) {
+        margin-top: 11px;
+    }
+    
+    .sidebar {
+        margin-left: 0;
+        margin-top: 67px;
+    }
+    
+    .sidebar-title {
+        position: relative;
+    
+        margin-top: 0;
+        margin-bottom: 43px;
+    
+        font-size: 16px;
+        line-height: 29.15px;
+    }
+    
+    .sidebar-title::before {
+        bottom: -8px;
+    }
+    
+    .new-post-content {
+        margin-left: 15px;
+    }
+    
+    .new-post-title {
+        margin-top: 11px;
+    }
+    
+    .search-input {
+        padding: 0 16px 0 16px;
+    }
+    
+    .email-input {
+        padding: 0 16px 0 16px;
+    }
+    
+    .sidebar-title-mailing {
+        margin-top: 44px;
+    }
+    
+    .email-input {
+        width: 329px;
+    }
+    
+    .button-send {
+        width: 329px;
+    }
+    
+    .sidebar-title-tags {
+        margin-top: 44px;
+    }
+    
+    .sidebar-title-themes {
+        margin-top: 44px;
+    }
+    
+    .products-title {
+        margin-top: 44px;
+    }
+    
+    .products-post {
+        max-width: 285px;
+    }
+    
+    .products-title-post {
+        font-size: 17px;
+    }
+    
+    .products-text {
+        margin-top: 9px;
+        margin-bottom: 23px;
     }
     
     .footer-wrapper {
